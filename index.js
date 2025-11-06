@@ -64,10 +64,10 @@ console.log(CemberinCevresi(5)); // 31.4159
 	4. Hesaplanan çemberin alanı döndürülecektir.
 */
 
-function CemberinAlani(/* kodlar buraya */) {
-  /* kodlar buraya */
+function CemberinAlani(yaricap, piSayisi) {
+  return piSayisi * Math.pow(yaricap, 2);
 }
-
+console.log(CemberinAlani(15, pi)); // 706.85775
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
 /* 	GÖREV 3:
